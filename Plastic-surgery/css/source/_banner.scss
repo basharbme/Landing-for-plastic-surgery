@@ -1,0 +1,72 @@
+.banner__fon {
+    background-image: url(https://colorlib.com/preview/theme/drpro/images/home_slider.jpg;);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    margin-top: 100px; 
+}
+
+.column {
+    padding-top: 250px;
+}
+
+.banner__content{
+    max-width: 550px;
+
+    @media screen and (max-width: 412px) {
+        margin-top: -100px;
+    }
+}
+
+.banner__static {
+    color: $primarycolor;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: $fonttext;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+.banner__title {
+    color: #404040;
+    font-size: 58px;
+    font-weight: 500;
+    font-family: $fonttext;
+    line-height: 1.1;
+    padding-bottom: 30px;
+}
+
+.banner__text {
+    color: #828282;
+    font-size: 14px;
+    font-family: $fonttext;
+    line-height: 2.14;
+    font-weight: 400;
+}
+
+.banner__button {
+    margin-top: 40px;
+    display: flex;
+
+    @media screen and (max-width: 491px) {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .banner__content {
+        max-width: 100%;
+    }
+
+    .banner__static {
+        font-size: 24px;
+    }
+
+    .banner__title{
+        font-size: 48px;
+    }
+}
