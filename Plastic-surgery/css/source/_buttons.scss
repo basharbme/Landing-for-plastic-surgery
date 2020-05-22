@@ -84,4 +84,8 @@ a:hover {
     color: white;
     cursor: pointer;
     margin-left: -30px;
+
+    @media screen and (max-width: 425px) {
+        margin-top: 20px;
+    }
 }

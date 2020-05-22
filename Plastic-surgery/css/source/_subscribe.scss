@@ -20,6 +20,10 @@
     padding-right: 130px;
     margin-top: 54px;
     margin-bottom: 100px;
+
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+    }
 }
 
 .subscribe__form-input{
